@@ -6,6 +6,18 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>GOT - Game Of Thrones</title>
+        <style>
+            @font-face {
+        font-family: 'Game of Thrones';
+        src: url('source/GameofThrones.eot');
+        src: url('source/GameofThrones.eot?#iefix') format('embedded-opentype'),
+            url('source/GameofThrones.woff') format('woff'),
+            url('source/GameofThrones.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+                h2, p {font-family: 'Game of Thrones'; font-weight: normal; font-style: normal;}
+                 </style>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/gameOfThroneIconOg.png" />
         <!-- Bootstrap icons-->
@@ -33,65 +45,101 @@
                 </div>
             </nav>
             <!-- Houses Sections-->
-            <section class="py-5" id="features">
+            <section class="py-5 houses" id="features"  style="background-image: url('assets/swarsd.jpg');">
                 <div class="container px-5 my-5">
                     <div class="row gx-5">
                         <div class="col-lg-12">
-                            <h4 class="mb-0">The different families in Game of Thrones have a major impact on the plot, especially the great houses. </h4>
+                            <div class="gif" >
+                                <!-- <iframe src="https://giphy.com/embed/6hbjk67dtI8zuiFyUA" width="480" height="334" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+                                <iframe src="https://giphy.com/embed/2sYavFt4u7vQXv7VjY" width="580" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        </div>
+                            <!-- <h4 class="mb-0">The different families in Game of Thrones have a major impact on the plot, especially the great houses. </h4>
                             <h5 class="mb-0">These families lead a designated region of Westeros, giving them power above other lords and a larger role in the kingdom's politics.</h5>
-                            <hr>
-                            <div class="row gx-5 row-cols-1 row-cols-md-2">
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfStark.html"><img src="assets/House_Stark.jpg" alt="houseOfStark" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF STARK</h2>
-                                    <p class="mb-0">Based in Winterfell, House Stark is known for its strong sense of honor and duty</p>
+                            <hr> -->
+                            <div class="row gx-5 row-cols-1 row-cols-md-2 cen">
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfStark.html"><img src="assets/House_Stark.svg" alt="houseOfStark" style="width: 100%;" /></a>
+                                    <h2 class="got-font" >HOUSE OF STARK</h2>
+                                    <!-- <p class="mb-0 got-font1">Winter is Coming</p> -->
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfLannister.html"><img src="assets/House_Lannister.jpg" alt="houseOfLannister" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF LANNISTER</h2>
-                                    <p class="mb-0">Based in Casterly Rock, House Lannister is one of the wealthiest and most powerful houses in Westeros</p>
+                                </div>  
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfLannister.html"><img src="assets/House_Lannister.svg" alt="houseOfLannister" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF LANNISTER</h2>
+                                    <!-- <p class="mb-0 got-font1">Hear Me Roar!</p> -->
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfTargaryen.html"><img src="assets/House_Targaryen.jpg" alt="houseOfTargaryen" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF TARGARYEN</h2>
-                                    <p class="mb-0">Once the ruling family of Westeros, House Targaryen was overthrown in Robert’s Rebellion, which began when Prince Rhaegar Targaryen abducted Lyanna Stark</p>
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfBaratheon.html"><img src="assets/House_Baratheon.jpg" alt="houseOfBaratheon" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF BARATHEON</h2>
-                                    <p class="mb-0">Based in Storm’s End, House Baratheon rose to power when Robert Baratheon overthrew the Targaryen dynasty in Robert’s Rebellion</p>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfTargaryen.html"><img src="assets/House_Targaryen.svg" alt="houseOfTargaryen" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF TARGARYEN</h2>
+                                    <!-- <p class="mb-0 got-font1">Fire and Blood</p> -->
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfGreyjoy.html"><img src="assets/House_Greyjoy.jpg" alt="houseOfGreyjoy" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF GREYJOY</h2>
-                                    <p class="mb-0">Based in the Iron Islands, House Greyjoy is a seafaring family known for their piracy and raiding</p>
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfTyrell.html"><img src="assets/House_Tyrell.jpg" alt="houseOfTyrell" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF TYRELL</h2>
-                                    <p class="mb-0">Based in Highgarden, House Tyrell is known for their wealth and political influence</p>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfBaratheon.html"><img src="assets/House_Baratheon.svg" alt="houseOfBaratheon" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF BARATHEON</h2>
+                                    <!-- <p class="mb-0 got-font1">Ours is the Fury</p> -->
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfArryn.html"><img src="assets/House_Arryn.svg" alt="houseOfArryn" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF ARRYN</h2>
-                                    <p class="mb-0">Based in the Eyrie, House Arryn is known for their isolation and defense</p>
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfMartell.html"><img src="assets/House_Martell.jpg" alt="houseOfMartell" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF MARTELL</h2>
-                                    <p class="mb-0">Based in Dorne, House Martell is known for their fierce independence and unique culture</p>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfGreyjoy.html"><img src="assets/House_Greyjoy.svg" alt="houseOfGreyjoy" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF GREYJOY</h2>
+                                    <!-- <p class="mb-0 got-font1">We Do Not Sow</p> -->
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfTully.html"><img src="assets/House_Tully.jpg" alt="houseOfTully" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF TULLY</h2>
-                                    <p class="mb-0">Based of Riverrun, House Tully ruled over the Riverlands from the castle and the head of the house is the Lord of Riverrun. </p>
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
-                                    <div class=" mb-3"><a href="houses/houseOfMormont.html"><img src="assets/House_Mormont.jpg" alt="houseOfMormont" style="width: 100%" /></a></div>
-                                    <h2 class="h5">HOUSE OF MORMONT</h2>
-                                    <p class="mb-0">Based on Bear Island, House Moremont is known for the possession of Valyrian sword Longclaw, which later was given to Jon Snow.</p>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfTyrell.html"><img src="assets/House_Tyrell.svg" alt="houseOfTyrell" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF TYRELL</h2>
+                                    <!-- <p class="mb-0 got-font1">Growing Strong</p> -->
                                 </div>
-                                <div class="col-lg-3 mb-5 h-100">
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfArryn.html"><img src="assets/House_Arryn.svg" alt="houseOfArryn" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF ARRYN</h2>
+                                    <!-- <p class="mb-0 got-font1">As High as Honor</p> -->
+                                </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfMartell.html"><img src="assets/House_Martell.svg" alt="houseOfMartell" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF MARTELL</h2>
+                                    <!-- <p class="mb-0 got-font1">Unbowed Unbent Unbroken</p> -->
+                                </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfTully.html"><img src="assets/House_Tully.svg" alt="houseOfTully" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF TULLY</h2>
+                                    <!-- <p class="mb-0 got-font1">Family Duty Honor </p> -->
+                                </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfMormont.html"><img src="assets/House_Mormont.svg" alt="houseOfMormont" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF MORMONT</h2>
+                                    <!-- <p class="mb-0 got-font1">Here We Stand</p> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfMormont.html"><img src="assets/House_Bolton.svg" alt="houseOfBolton" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF BOLTON</h2>
+                                    <!-- <p class="mb-0 got-font1">Our Blades Are Sharp</p> -->
+                                </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfMormont.html"><img src="assets/House_Tarly.svg" alt="houseOfTarley" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE OF TARLEY</h2>
+                                    <!-- <p class="mb-0 got-font1">The Sun of Winter</p> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfMormont.html"><img src="assets/BWB.png" alt="Brotherhood_without_Banners" style="width:100%;" /></a>
+                                    <h2 class="got-font">BROTHERHOOD WITHOUT BANNERS</h2>
+                                    <!-- <p class="mb-0 got-font1">The Sun of Winter</p> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mb-5 h-100 container1">
+                                    <div class=" mb-3 card1"><a href="houses/houseOfMormont.html"><img src="assets/House_Baelish.svg" alt="House_Baelish" style="width:100%;" /></a>
+                                    <h2 class="got-font">HOUSE BAELISH</h2>
+                                    <!-- <p class="mb-0 got-font1">The Sun of Winter</p> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -104,6 +152,7 @@
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; GOT Website 2024</div></div>
+                    
                     <div class="col-auto">
                         <a class="link-light small" href="#!">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
