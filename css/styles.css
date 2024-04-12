@@ -10916,7 +10916,7 @@ html {
   flex-basis: 90px;
 }
 .pi-data-value {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   overflow-wrap: break-word;
   flex-basis: 180px;
@@ -10931,4 +10931,10 @@ html {
   flex-direction: row;
   grid-column-gap: 9px;
   overflow: hidden;
+}
+@media (max-width: 767px) {
+  /* Apply margin-bottom only for screens smaller than 768px */
+  .got-font {
+    margin-bottom: 1rem; /* Adjust the margin as needed */
+  }
 }
